@@ -118,6 +118,8 @@ a:hover {
 
 .meet-the-team h2 {
     font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .meet-the-team-child {
@@ -127,19 +129,21 @@ a:hover {
     margin: 10px 70px;
 }
 
-h4 {
-    background-color: white;
-    border-radius: 30%;
+.meet-the-team-name {
+    background-color:lightgray;
+    opacity: 0.9;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
-h5 {
-    background-color: lightslategray;
-    border-radius: 30%;
-}
+
 
 #contact {
     background-color: white;
     opacity: 0.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .meet-the-team h2 {
