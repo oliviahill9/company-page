@@ -3,7 +3,7 @@ body {
     font-size: 22px;
     text-align: center;
     margin: 0;
-    background-color:seashell;
+    background-color:lightgray;
     color:black;
 }
 
@@ -16,6 +16,9 @@ header {
     left: 0;
     text-align: center;
     margin-bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color:lightgray;
     
 }
 
@@ -39,6 +42,11 @@ a {
     text-decoration: none;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .about {
@@ -67,14 +75,23 @@ a {
     opacity: 0.8;
 }
 
-img {
+
+
+
+.portfolio img {
     height: 300px;
     width: 400px;
     border-radius: 50%;
+    border: 3px solid black;
 }
 
 .portfolio {
     display: inline-block;
+    font-weight: 300;
+}
+
+.what-we-do h2, h3 {
+    font-weight: 300;
 }
 
 .portfolio-child {
@@ -84,3 +101,47 @@ img {
     margin: 10px 50px;
 }
 
+.team img {
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.team {
+    background-image: url(https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+}
+
+.meet-the-team {
+    display: inline-block;
+    
+}
+
+.meet-the-team h2 {
+    font-weight: 300;
+}
+
+.meet-the-team-child {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 70px;
+}
+
+h4 {
+    background-color: white;
+    border-radius: 30%;
+}
+
+h5 {
+    background-color: lightslategray;
+    border-radius: 30%;
+}
+
+#contact {
+    background-color: white;
+    opacity: 0.9;
+}
+
+.meet-the-team h2 {
+    background-color: white;
+}
